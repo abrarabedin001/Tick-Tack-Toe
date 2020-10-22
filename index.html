@@ -1,0 +1,131 @@
+<!--
+PROJECT: Tic Tac Toe; BY: SANJIDA TASNIM, AHMED ABRAR
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tick Tac Toe</title>
+
+    <!--LINKS START-->
+
+    <!--BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--STYLE CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--MEDIA CSS-->
+    <!--<link rel="stylesheet" href="css/media.css">-->
+</head>
+
+<body>
+
+
+    <!--TITLE START-->
+    <section id="title-row">
+        <div class="container">
+            <div class="row">
+                <div class="page-title col-md-8 m-auto">
+                    <h2 class="text-center">Try Tic Tac Toe</h2>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--TITLE END-->
+
+    <!--TURN ROW START-->
+
+    <section id="turn-row">
+        <div class="container">
+            <div class="row">
+                <div class="m-auto text-center col-md-6">
+                    <div class="turn turn-text">Turn : </div>
+                    <!--class turn-XO will change according to the players turn respectively displaying either X or O-->
+                    <div id="turnXO" class="turn turn-XO">X/O</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--TURN ROW END-->
+
+    <!--TIC TAC TOE ROW START-->
+
+    <section id="main-row">
+        <div class="container">
+            <div class="tictck-card m-auto col-sm-6 row">
+                <table class="table">
+
+                    <tbody>
+                        <tr>
+                            <td data-value = "A"  data-index = "0" class=" text-center user_input" >
+                                
+                            </td>
+                            <td data-value = "A"  data-index = "1" class=" text-center user_input" >
+                                
+                            </td>
+                            <td data-value = "A"  data-index = "2" class=" text-center user_input" >
+                               
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-value = "A"  data-index = "3" class=" text-center user_input" >
+                                
+                            </td>
+                            <td data-value = "A"  data-index = "4" class=" text-center user_input" >
+                               
+                            </td>
+                            <td data-value = "A"  data-index = "5" class=" text-center user_input" >
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-value = "A"  data-index = "6" class=" text-center user_input" >
+                                
+                            </td>
+                            <td data-value = "A"  data-index = "7" class=" text-center user_input" >
+                                
+                            </td>
+                            <td data-value = "A"  data-index = "8" class=" text-center user_input" >
+                                
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!--TIC TAC TOE ROW  END-->
+
+    <!--RESTART-BUTTON START-->
+    <section id="restart-row">
+        <div class="container">
+            <div class="row ">
+                <div class="m-auto text-center col-md-6">
+                    <button id="restart" href="#" class="restart-button ">RESTART GAME</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--RESTART-BUTTON END-->
+
+
+
+    <!--JS LINKS-->
+
+    <link rel="stylesheet" href="js/jquery-1.12.4.min.js">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="js/Font-Awesome.js">
+    <link rel="stylesheet" href="js/custom.js">
+    <script src="function.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+/*COMMON CSS START*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.clr {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+label {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+table {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*COMMON CSS END*/
+
+
+#title-row {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.page-title h2 {
+    color: #287dd3;
+}
+
+
+/*TURN ROW START*/
+
+#turn-row {
+    /*    padding-top: 60px;*/
+    padding-bottom: 30px;
+}
+
+.turn {
+    display: inline-block;
+    color: #2f2f2f;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*TURN ROW END*/
+
+/*TIC TAC TOE ROW  START*/
+
+.tictck-card {
+    background: #EAF4FF;
+    padding-top: 15px;
+}
+
+.table {
+    border-radius: 10%;
+
+}
+
+.table tr td {
+    border: 5px solid #287dd3;
+    height: 150px;
+    width:150px;
+    transition: all linear .3s;
+}
+
+.table tr td:hover {
+    background: #84C1FF;
+
+}
+
+.user_input {
+    padding: 0px;;
+    line-height: 100px;
+    font-size: 50px;
+    color: #287dd3;
+
+}
+
+/*TIC TAC TOE ROW  END*/
+
+/*RESTART-BUTTON START*/
+#restart-row {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.restart-button {
+    font-size: 20px;
+    font-weight: 600;
+    color: #287dd3;
+    border: 3px solid #287dd3;
+    padding: 15px;
+    background: #fff;
+    transition: all linear .3s;
+}
+
+.restart-button:hover {
+    background: #84C1FF;
+    color: #fff;
+}
+.td{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*RESTART-BUTTON END*/
